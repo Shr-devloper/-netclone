@@ -83,7 +83,7 @@ nav img {
 
 
 .hero button {
-    display: inline;
+    display: flex;
     height: 70px;
     width: 200px;
     background-color: red;
@@ -139,8 +139,6 @@ nav img {
     margin: auto;
     color: white;
     align-items: center;
-
-
 }
 
 .secImg {
@@ -148,7 +146,7 @@ nav img {
 }
 
 .secImg img {
-    width: 500px;
+    width: 555px;
     position: relative;
     z-index: 10;
 }
@@ -157,7 +155,7 @@ nav img {
     position: absolute;
     top: 51px;
     right: 0;
-    width: 500px;
+    width: 555px;
 }
 
 section.first>div {
@@ -209,6 +207,50 @@ section.first>div :nth-child(2) {
     cursor: pointer;
     
 }
+
+@media screen and (max-width:1300px){
+    nav{
+        max-width:90vw
+    }
+    .first{
+        flex-wrap: wrap;
+    }
+    .footer{
+            display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+        gap: 23px
+    }
+    .secImg img {
+    width: 305px;
+    }
+    .secImg video {
+    width: 305px;
+    }
+    .hero> :first-child {
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+}
+ .hero input{
+     padding:7px 53px 8px 14px;
+ }
+    .hero button{
+        display:flex;
+        flex-direction:columns;
+    }
+    
+        }
+
 
 .footer{
     display: grid;
