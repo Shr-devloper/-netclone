@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+
+}
+
+.main {
+    background-image: url("Assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vh);
+    height: 100vh;
+    position: relative;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 60vw;
+    height: 102px;
+}
+
+nav img {
+    color: red;
+    width: 144px;
+    position: relative;
+    z-index: 20;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: rgba(234, 231, 231, 0.056);
+    color: rgb(255, 255, 255);
+    border-radius: 0.25rem;
+    border-width: 0.0625rem;
+    font-size: 16px;
+    width: 100px;
+    border: 1px solid white;
+}
+
+.btn-red {
+    padding: 3px 8px;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 0.25rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border: 1px solid red;
+}
+
+.hero input {
+    display: inline;
+    height: 60px;
+    width: 300px;
+    background-color: transparent;
+    background: rgba(22, 22, 22, 0.7);
+    border-radius: 0.25rem;
+    border-width: 0.0625rem;
+    border-color: rgb(235, 57, 66);
+    color: transparent;
+    gap: 30px;
+}
+
+
+.hero button {
+    display: inline;
+    height: 70px;
+    width: 200px;
+    background-color: red;
+    color: aliceblue;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    border-width: 0.0625rem;
+    border-color: rgb(235, 57, 66);
+}
+
+
+.hero {
+    font-family: "Gill Sans", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: calc(100% - 102px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(53, 52, 52);
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+
+
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 500px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 500px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+}
+
+section.first>div :first-child {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+    align-items: center;
+}
+
+.feq h2 {
+    text-align: center;
+    font-size: 48px;
+
+}
+
+.feq {
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox:hover {
+    background-color: rgba(171, 169, 169, 0.676);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    background-color: rgba(123, 118, 118, 0.45);
+    padding: 24px;
+    margin: 20px auto;
+    max-width: 60vw;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+footer {
+    color: white;
+    max-width: 80vw;
+    padding: 24px;
+    margin: auto;
+}
+
+.footer a{
+    font-size: 14px;
+    color: white;
+
+}
+
+
+footer .questions{
+    padding: 34px 0;
+
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
