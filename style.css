@@ -208,7 +208,7 @@ section.first>div :nth-child(2) {
     
 }
 
-@media screen and (max-width:1300px){
+@media screen and (max-width:1000px){
     nav{
         max-width:90vw
     }
