@@ -69,8 +69,9 @@ nav img {
 }
 
 .hero input {
-    color:white;
     display: inline;
+    color: aliceblue;
+    padding: 0 12px;
     height: 60px;
     width: 300px;
     background-color: transparent;
@@ -78,7 +79,6 @@ nav img {
     border-radius: 0.25rem;
     border-width: 0.0625rem;
     border-color: rgb(235, 57, 66);
-    color: transparent;
     gap: 30px;
 }
 
@@ -140,6 +140,8 @@ nav img {
     margin: auto;
     color: white;
     align-items: center;
+
+
 }
 
 .secImg {
@@ -147,7 +149,7 @@ nav img {
 }
 
 .secImg img {
-    width: 555px;
+    width: 500px;
     position: relative;
     z-index: 10;
 }
@@ -156,7 +158,7 @@ nav img {
     position: absolute;
     top: 51px;
     right: 0;
-    width: 555px;
+    width: 500px;
 }
 
 section.first>div {
@@ -232,27 +234,7 @@ section.first>div :nth-child(2) {
     font-weight: 900;
     font-size: 32px;
 }
-
-.hero> :nth-child(2) {
-    font-weight: 400;
-    font-size: 20px;
 }
-
-.hero> :nth-child(3) {
-    font-weight: 400;
-    font-size: 20px;
-}
- .hero input{
-     padding:7px 53px 8px 14px;
- }
-    .hero button{
-        display:flex;
-        flex-direction:columns;
-    }
-    
-        }
-
-
 .footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
